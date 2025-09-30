@@ -28,6 +28,8 @@ namespace TelCo.ColorCoder
                 6
             );
 
+            ColorCodeManualTests.AssertManualIsCorrect();
+
             Console.WriteLine(ColorCodeManualGenerator.Generate());
         }
     }
