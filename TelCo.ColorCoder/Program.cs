@@ -1,4 +1,6 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
+using TelCo.ColorCoder.Tests;
 
 namespace TelCo.ColorCoder
 {
@@ -25,6 +27,8 @@ namespace TelCo.ColorCoder
                 new ColorPair { majorColor = Color.Red, minorColor = Color.Blue },
                 6
             );
+
+            Console.WriteLine(ColorCodeManualGenerator.Generate());
         }
     }
 }
